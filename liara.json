@@ -1,0 +1,10 @@
+{
+  "app": "novincomputerapi",
+  "port": 5000,
+  "disks": [
+    {
+      "name": "data",
+      "mountTo": "public/uploads"
+    }
+  ]
+}
