@@ -61,5 +61,4 @@ Commit your changes (git commit -m 'Add your feature').
 Push to the branch (git push origin feature/your-feature).
 Open a pull request.
 
-## LicenseThis project is licensed under the MIT License. See the LICENSE file for details.
-## ContactFor questions or feedback, reach out to Navid KazemiPoor at navid.kazemipoor@example.com or open an issue on GitHub.
+
