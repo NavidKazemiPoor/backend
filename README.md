@@ -1,20 +1,19 @@
-#Backend Project
-Overview
-This repository contains the backend codebase for a task management application. It serves as the API for a web application, handling user authentication, task creation, and data storage. The project is built with Node.js, Express, and MongoDB to ensure scalability, performance, and maintainability.
-Features
+# Backend Project
+## OverviewThis repository contains the backend codebase for a task management application. It serves as the API for a web application, handling user authentication, task creation, and data storage. The project is built with Node.js, Express, and MongoDB to ensure scalability, performance, and maintainability.
+## Features
 
 User Authentication: Secure user registration and login using JWT.
 Task Management: Create, read, update, and delete tasks for authenticated users.
 Data Persistence: Store tasks and user data in a MongoDB database.
 
-Technologies Used
+## Technologies Used
 
 Node.js v18.x: Server-side JavaScript runtime for building the API.
 Express.js v4.x: Framework for handling HTTP requests and routing.
 MongoDB v6.x: NoSQL database for storing user and task data.
 Docker v24.x: Containerization for consistent deployment.
 
-Installation
+## Installation
 
 Clone the repository:
 git clone https://github.com/NavidKazemiPoor/backend.git
@@ -36,14 +35,14 @@ npm start
 
 
 
-Usage
+## Usage
 
 The server runs at http://localhost:3000.
 Use tools like Postman to interact with the API. Example: curl http://localhost:3000/api/tasks
 
 
 
-API Endpoints
+## API Endpoints
 
 GET /api/users: Retrieve all users (admin only).
 POST /api/users/register: Register a new user.
@@ -54,7 +53,7 @@ PUT /api/tasks/:id: Update a task by ID.
 DELETE /api/tasks/:id: Delete a task by ID.
 
 API documentation is available at /api-docs (served via Swagger when the server is running).
-Contributing
+## Contributing
 
 Fork the repository.
 Create a new branch (git checkout -b feature/your-feature).
@@ -62,7 +61,5 @@ Commit your changes (git commit -m 'Add your feature').
 Push to the branch (git push origin feature/your-feature).
 Open a pull request.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-Contact
-For questions or feedback, reach out to Navid KazemiPoor at navid.kazemipoor@example.com or open an issue on GitHub.
+## LicenseThis project is licensed under the MIT License. See the LICENSE file for details.
+## ContactFor questions or feedback, reach out to Navid KazemiPoor at navid.kazemipoor@example.com or open an issue on GitHub.
