@@ -1,5 +1,5 @@
 # Backend Project
-## OverviewThis repository contains the backend codebase for a task management application. It serves as the API for a web application, handling user authentication, task creation, and data storage. The project is built with Node.js, Express, and MongoDB to ensure scalability, performance, and maintainability.
+## Overview This repository contains the backend codebase for a E-commerce application. It serves as the API for a web application, handling user authentication, task creation, and data storage. The project is built with Node.js, Express, and MongoDB to ensure scalability, performance, and maintainability.
 ## Features
 
 User Authentication: Secure user registration and login using JWT.
